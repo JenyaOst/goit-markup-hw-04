@@ -458,17 +458,18 @@ padding-bottom: 100px;
     width: 264px;
 min-height: 72px;
 }
+.logo-footer-div{
+    margin-right: 120px;
+}
 .footer-social-title{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 margin-bottom: 16px;
 }
-.social-div{
-    margin-left: 120px;
-}
+
 .footer-logo-list{
     display: flex;
     justify-content: start;
