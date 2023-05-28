@@ -315,13 +315,42 @@ gap: 24px;
 .team-list-container{
 padding: 32px 16px;
 }
+.social-list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 24px;
+    margin-top: 8px;
+
+}
+.social-list-item{
+width: 40px;
+height: 40px;
+}
+.social-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#4D5AE5;
+}
+.social-icon{
+    fill: #F4F4FD;
+}
+.social-link:hover{
+    background-color: #31D0AA;
+}
+.social-link:focus{
+    background-color: #31D0AA;
+}
 
 /* Customers-section */
 
 .customer-section{
  padding-top: 120px;
 padding-bottom: 120px;
-background-color: aqua;
 }
 .customer-title{
     font-size: 36px;
@@ -330,27 +359,39 @@ background-color: aqua;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 
 }
-.customers-list-icons{
-width: 168px;
-height: 88px;
-border: 2px solid tomato;
-border-radius: 4px;
-}
 .customer-list{
-display: flex;
-align-items: center;
-gap: 24px;
-}
-.custumer-link{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.customers-list-icons{
+    width: 168px;
+    height: 88px;
+}
+.custumer-link{
     width: 100%;
     height: 100%;
-    background-color: tomato;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
+.customers-icon { 
+fill:#8E8F99;
+
+}
+.custumer-link:hover{
+    border-color: #404BBF;
+}
+.custumer-link:hover .customers-icon{
+    fill: #404BBF;
+}
+
 
 
 /* Footer */
@@ -359,6 +400,9 @@ gap: 24px;
 background-color: var(--first-title-color);
 padding-top: 100px;
 padding-bottom: 100px;
+}
+.footer-container{
+    display: flex;
 }
 
 
@@ -395,6 +439,47 @@ padding-bottom: 100px;
     width: 264px;
 min-height: 72px;
 }
+.footer-social-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+margin-bottom: 16px;
+}
+.social-div{
+    margin-left: 120px;
+}
+.footer-logo-list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+}
+.footer-list-item{
+    width: 40px;
+    height: 40px;
+}
+.footer-logo-social{
+    fill: #FFFFFF;
+}
+.footer-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#4D5AE5;
+}
+.footer-link:hover{
+    background-color: #31D0AA;
+}
+.footer-link:focus{
+    background-color: #31D0AA;
+}
+
+
 
 
 /* Portfolio */
