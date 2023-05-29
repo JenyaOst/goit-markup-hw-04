@@ -387,6 +387,7 @@ padding-bottom: 120px;
 .customers-list-icons{
     width: 168px;
     height: 88px;
+
 }
 .custumer-link{
     width: 100%;
@@ -397,10 +398,11 @@ padding-bottom: 120px;
     border: 1px solid var(--custumer-color);
     border-radius: 4px;
     color:var(--custumer-color) ;
+    padding: 16px 32px;
+    
 }
 .customers-icon { 
 fill:currentColor;
-
 }
 .custumer-link:hover{
     border-color: #404BBF;
